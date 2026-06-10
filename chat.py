@@ -16,9 +16,9 @@ if sys.stdout.encoding != 'utf-8':
     sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
 os.environ['PYTHONIOENCODING'] = 'utf-8'
 
-# Them thu vien tu D:\pip_libs neu chua trong path
+# Them thu vien tu D:\pip_libs neu chua trong path (Dành cho môi trường gốc của tác giả)
 LIBS_PATH = r"D:\pip_libs"
-if LIBS_PATH not in sys.path:
+if os.path.exists(LIBS_PATH) and LIBS_PATH not in sys.path:
     sys.path.insert(0, LIBS_PATH)
 
 import requests

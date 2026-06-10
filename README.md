@@ -22,12 +22,12 @@ Hệ thống được tích hợp công nghệ **RAG (Retrieval-Augmented Genera
 
 ## 🚀 Cài đặt & Chuẩn bị
 
-### 1. Cài đặt thư viện Python
-Yêu cầu Python 3.10 trở lên. Mở Terminal và chạy:
-```cmd
-pip install -r requirements.txt
-```
-*(Nếu bạn muốn cài vào thư mục riêng, hãy sử dụng virtual environment hoặc cài bằng cờ `--target` giống như trong project gốc).*
+### 1. Cài đặt môi trường (Chỉ cần 1 click)
+Yêu cầu máy tính đã cài đặt sẵn **Python 3.10+**. (Lưu ý: Nhớ tick vào nút "Add Python to PATH" lúc cài đặt Python).
+
+Thay vì phải gõ lệnh thủ công, bạn chỉ cần:
+1. Click đúp vào file **`install.bat`**.
+2. Ngồi đợi 1-2 phút. Phần mềm sẽ tự động tạo Môi trường ảo (Virtual Environment) và tải toàn bộ các thư viện cần thiết một cách gọn gàng, không rác máy.
 
 ### 2. Cài đặt LM Studio
 1. Tải và cài đặt [LM Studio](https://lmstudio.ai/).
